@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dermo Tienda</title>
+    <link rel="stylesheet" href="estilo/style.css" />
+    <link rel="shortcut icon" href="resources/hoja_logo.png" style="height: 25px; width: 25px" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="resources/hoja_logo.png" alt="logo" />
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Cosmética</a></li>
+                <li><a href="#">Maquillaje</a></li>
+                <li><a href="#">Contactanos</a></li>
+            </ul>
+        </nav>
+        <a href="#"> <button>Iniciar Sesion</button></a>
+    </header>
+    <main class="log-titulo">
+
+        <h1>Escribime</h1>
+        <div class="form-contenedor">
+            <section class="formulario">
+                <form id="form-email" action="">
+                    <label> Asunto:
+                        <input placeholder="Tu asunto" class="entrada" type="text" name="asunto" id="asunto" required>
+                    </label>
+                    <label> Mensaje:
+                        <textarea rows="100" cols="50" placeholder="Dejame tu mensaje..." name="mensaje" id="mensaje"
+                            class="entrada entrada-text-area" required></textarea>
+
+                    </label>
+
+                    <label><button type="submit" style="width: 200px; margin-left: 40%;">Ingresar</button>
+                    </label>
+
+
+
+                </form>
+            </section>
+            <a href="#" hidden id="correo"></a>
+            <img class="comunicacion-img" src="img/comunicacion.png" alt="">
+        </div>
+    </main>
+    <footer>
+        <div class="row">
+            <h4>Sobre nosotros </h4>
+            <div class="info-shop">
+                <ul>
+                    <li>Mi primer página Web de compras</li>
+                    <li>Mail: madelintania@gmail.com</li>
+                    <li>Floresta CABA</li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+        <div class="social-links">
+            <div class="iconos">
+                <a class="icon" href="#"><i class="fa-brands fa-instagram"></i> </a>
+                <a class="icon" href="https://www.linkedin.com/in/madelin-huallpa-a615ab193/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i></a>
+                <a class="icon" href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./src/form.js"></script>
+</body>
+
+
+</html>
